@@ -74,6 +74,8 @@
     <Folder Include="External\jquery-easing\" />
     <Folder Include="External\simple-line-icons\" />
     <Folder Include="Views\Temp\" />
+    <Folder Include="Contents\img\about\" />
+    <Folder Include="Contents\img\home\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
@@ -93,15 +95,6 @@
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
     <Content Include="Views\About\Index.cshtml" />
-    <Content Include="Contents\img\01.jpg" />
-    <Content Include="Contents\img\02.jpg" />
-    <Content Include="Contents\img\03.jpg" />
-    <Content Include="Contents\img\bg-callout.jpg" />
-    <Content Include="Contents\img\bg-masthead.jpg" />
-    <Content Include="Contents\img\portfolio-1.jpg" />
-    <Content Include="Contents\img\portfolio-2.jpg" />
-    <Content Include="Contents\img\portfolio-3.jpg" />
-    <Content Include="Contents\img\portfolio-4.jpg" />
     <Content Include="Scripts\Kaver.js" />
     <Content Include="External\bootstrap\css\bootstrap.css" />
     <Content Include="External\bootstrap\css\bootstrap.min.css" />
@@ -163,7 +156,26 @@
     <Content Include="External\simple-line-icons\less\simple-line-icons.less" />
     <Content Include="External\simple-line-icons\scss\simple-line-icons.scss" />
     <Content Include="Contents\Kaver.css" />
-    <Content Include="Contents\img\womenvocal.jpg" />
+    <Content Include="Contents\img\home\01.jpg" />
+    <Content Include="Contents\img\home\02.jpg" />
+    <Content Include="Contents\img\home\03.jpg" />
+    <Content Include="Contents\img\home\bg-masthead.jpg" />
+    <Content Include="Contents\img\home\portfolio-1.jpg" />
+    <Content Include="Contents\img\home\portfolio-2.jpg" />
+    <Content Include="Contents\img\home\portfolio-3.jpg" />
+    <Content Include="Contents\img\home\portfolio-4.jpg" />
+    <Content Include="Contents\img\about\womenvocal.jpg" />
+    <Content Include="Contents\img\about\all.jpg" />
+    <Content Include="Contents\img\about\manvocal.jpg" />
+    <Content Include="Contents\img\about\keysvocal.jpg" />
+    <Content Include="Contents\img\about\bass.jpg" />
+    <Content Include="Contents\img\about\rythmguitar.jpg" />
+    <Content Include="Contents\img\about\drummer.jpg" />
+    <Content Include="Contents\img\about\sologuitar.jpg" />
+    <Content Include="Contents\img\about\bg-calloutabout.jpg" />
+    <Content Include="Contents\img\home\bg-callout.jpg" />
+    <Content Include="Contents\img\about\barkov.jpg" />
+    <Content Include="Contents\img\about\savin.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Contents\docs\KAVer_Set_Example.docx" />
