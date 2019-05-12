@@ -110,7 +110,7 @@ header.aboutmasthead {
     overflow: hidden;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../Contents/img/about/all.jpg");
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../Contents/img/about/about.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
@@ -141,6 +141,46 @@ header.aboutmasthead {
         }
 
         header.aboutmasthead .aboutmasthead-content .aboutmasthead-subheading {
+            font-size: 4rem
+        }
+}
+
+header.portfoliomasthead {
+    position: relative;
+    overflow: hidden;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../Contents/img/portfolio/portfolio.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover
+}
+
+    header.portfoliomasthead .portfoliomasthead-content {
+        z-index: 1;
+        position: relative
+    }
+
+        header.portfoliomasthead .portfoliomasthead-content .portfoliomasthead-heading {
+            font-size: 4rem
+        }
+
+        header.portfoliomasthead .portfoliomasthead-content .portfoliomasthead-subheading {
+            font-size: 2rem
+        }
+
+@media (min-width: 992px) {
+    header.portfoliomasthead {
+        padding-top: 19rem;
+        padding-bottom: 18rem
+    }
+
+        header.portfoliomasthead .portfoliomasthead-content .portfoliomasthead-heading {
+            font-size: 6rem
+        }
+
+        header.portfoliomasthead .portfoliomasthead-content .portfoliomasthead-subheading {
             font-size: 4rem
         }
 }

@@ -76,6 +76,8 @@
     <Folder Include="Views\Temp\" />
     <Folder Include="Contents\img\about\" />
     <Folder Include="Contents\img\home\" />
+    <Folder Include="Contents\img\portfolio\" />
+    <Folder Include="Views\Portfolio\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
@@ -84,6 +86,7 @@
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AboutController.cs" />
+    <Compile Include="Controllers\PortfolioController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
@@ -165,7 +168,7 @@
     <Content Include="Contents\img\home\portfolio-3.jpg" />
     <Content Include="Contents\img\home\portfolio-4.jpg" />
     <Content Include="Contents\img\about\womenvocal.jpg" />
-    <Content Include="Contents\img\about\all.jpg" />
+    <Content Include="Contents\img\about\about.jpg" />
     <Content Include="Contents\img\about\manvocal.jpg" />
     <Content Include="Contents\img\about\keysvocal.jpg" />
     <Content Include="Contents\img\about\bass.jpg" />
@@ -176,6 +179,8 @@
     <Content Include="Contents\img\home\bg-callout.jpg" />
     <Content Include="Contents\img\about\barkov.jpg" />
     <Content Include="Contents\img\about\savin.jpg" />
+    <Content Include="Views\Portfolio\Index.cshtml" />
+    <Content Include="Contents\img\portfolio\portfolio.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Contents\docs\KAVer_Set_Example.docx" />
@@ -192,6 +197,7 @@
     <None Include="External\jquery\jquery.slim.min.map" />
     <None Include="External\simple-line-icons\fonts\Simple-Line-Icons.woff2" />
     <None Include="Views\Temp\Temp.cshtml" />
+    <None Include="Contents\docs\KAVer_Set_Full_03_2018.docx" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
