@@ -28,16 +28,22 @@
     <Content Remove="wwwroot\External\jquery\jquery.min.map" />
     <Content Remove="wwwroot\External\jquery\jquery.slim.min.map" />
     <Content Remove="wwwroot\External\simple-line-icons\fonts\Simple-Line-Icons.woff2" />
+    <Content Remove="Views\Web.config" />
+    <Content Remove="Pages\Shared\Error.cshtml" />
+    <Content Remove="Views\Shared\_ViewImports.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Views\" />
     <Folder Include="wwwroot\Contents\" />
     <Folder Include="wwwroot\External\" />
     <Folder Include="wwwroot\Scripts\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Views\" />
+    <Folder Include="Views\About\" />
+    <Folder Include="Views\Portfolio\" />
+    <Folder Include="Views\Home\" />
+    <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Views\Temp\Temp.cshtml" />
     <None Include="wwwroot\Contents\docs\KAVer_Set_Example.docx" />
     <None Include="wwwroot\Contents\docs\KAVer_Set_Full_03_2018.docx" />
     <None Include="wwwroot\Contents\docs\KAVer_TechRider_General.docx" />
