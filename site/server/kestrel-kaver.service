@@ -1,0 +1,16 @@
+﻿[Unit]
+Description=Kaver .NET Web API App running on CentOS 7
+
+[Service]
+WorkingDirectory=/var/www/kaver/wwwroot
+ExecStart=/usr/share/dotnet/dotnet /var/www/kaver/site.dll
+Restart=always
+# Restart service after 10 seconds if the dotnet service crashes:
+RestartSec=10
+KillSignal=SIGINT
+SyslogIdentifier=dotnet-example
+User=apache
+Environment=ASPNETCORE_ENVIRONMENT=Production
+
+[Install]
+WantedBy=multi-user.target

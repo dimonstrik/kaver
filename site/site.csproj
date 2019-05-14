@@ -42,6 +42,7 @@
     <Folder Include="Views\Portfolio\" />
     <Folder Include="Views\Home\" />
     <Folder Include="Views\Shared\" />
+    <Folder Include="server\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\Contents\docs\KAVer_Set_Example.docx" />
