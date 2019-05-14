@@ -1,1 +1,1 @@
-﻿dotnet publish --configuration release -o /var/www/kaver/
+﻿/usr/share/dotnet/dotnet publish --configuration release -o /var/www/kaver/
