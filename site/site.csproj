@@ -45,20 +45,34 @@
     <Folder Include="server\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="wwwroot\Contents\docs\KAVer_Set_Example.docx" />
-    <None Include="wwwroot\Contents\docs\KAVer_Set_Full_03_2018.docx" />
-    <None Include="wwwroot\Contents\docs\KAVer_TechRider_General.docx" />
+    <None Include="wwwroot\Contents\docs\KAVer_Set_Example.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Contents\docs\KAVer_Set_Full_03_2018.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\Contents\docs\KAVer_TechRider_General.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="wwwroot\External\bootstrap\css\bootstrap.css.map" />
-    <None Include="wwwroot\External\bootstrap\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\External\bootstrap\css\bootstrap.min.css.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="wwwroot\External\bootstrap\js\bootstrap.bundle.js.map" />
-    <None Include="wwwroot\External\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\External\bootstrap\js\bootstrap.bundle.min.js.map">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="wwwroot\External\bootstrap\js\bootstrap.js.map" />
     <None Include="wwwroot\External\bootstrap\js\bootstrap.min.js.map" />
     <None Include="wwwroot\External\font-awesome\css\font-awesome.css.map" />
-    <None Include="wwwroot\External\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\External\font-awesome\fonts\fontawesome-webfont.woff2">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="wwwroot\External\jquery\jquery.min.map" />
     <None Include="wwwroot\External\jquery\jquery.slim.min.map" />
-    <None Include="wwwroot\External\simple-line-icons\fonts\Simple-Line-Icons.woff2" />
+    <None Include="wwwroot\External\simple-line-icons\fonts\Simple-Line-Icons.woff2">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Views\Error.cshtml.cs" />
